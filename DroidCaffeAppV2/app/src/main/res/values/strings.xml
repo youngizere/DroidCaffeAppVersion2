@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Droid Caffe</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Froyo</string>
+    <string name="menu_slideshow">Cookies</string>
+
+    <string name="home_second">Home Second</string>
+
+
+    <!--New-->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="desserts_recipes">Desserts Recipes</string>
+    <string name="browse_recipes">Browse Recipes</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_cook_time_2hrs"><![CDATA[Prep & Cook Time: 2hrs]]></string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="how_to_prepare_donuts">How to prepare Donuts</string>
+    <string name="pastries_recipes">Pastries Recipes</string>
+    <string name="view_pastries">View Pastries</string>
+    <string name="stores_images">Stores Images</string>
+    <string name="store_name">Store Name</string>
+    <string name="open_time">Open Time</string>
+    <string name="stores_description">Stores Description</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="share">Share</string>
+    <string name="droid_caffe_stores">Droid Caffe Stores</string>
+
+    <array name="desserts_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/chocolate</item>
+        <item>@drawable/cream</item>
+        <item>@drawable/gateau</item>
+        <item>@drawable/fork</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/chocolate</item>
+        <item>@drawable/cream</item>
+        <item>@drawable/gateau</item>
+        <item>@drawable/fork</item>
+    </array>
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Cake</item>
+        <item>Chocolate</item>
+        <item>Cream</item>
+        <item>Gateau</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Cake</item>
+        <item>Chocolate</item>
+        <item>Cream</item>
+        <item>Gateau</item>
+        <item>Sandwich</item>
+
+    </string-array>
+
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Cake is a premium self-serve frozen yogurt</item>
+        <item>Chocolate is sugared and suit</item>
+        <item>Cream is a bonus dessert</item>
+        <item>Gateau is a french sugared cookie</item>
+        <item>Sandwich is a premium dessert</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Cake is a premium self-serve frozen yogurt</item>
+        <item>Chocolate is sugared and suit</item>
+        <item>Cream is a bonus dessert</item>
+        <item>Gateau is a french sugared cookie</item>
+        <item>Sandwich is a premium dessert</item>
+
+    </string-array>
+
+    <!--Pastries-->
+    <array name="pastries_images">
+        <item>@drawable/bakery</item>
+        <item>@drawable/danish</item>
+        <item>@drawable/coffee</item>
+        <item>@drawable/pizza</item>
+        <item>@drawable/bakery</item>
+        <item>@drawable/danish</item>
+        <item>@drawable/coffee</item>
+        <item>@drawable/pizza</item>
+
+
+    </array>
+    <string-array name="pastries_title">
+        <item>Bakery</item>
+        <item>Danish</item>
+        <item>Coffee Cake</item>
+        <item>Pizza</item>
+        <item>Bakery</item>
+        <item>Danish</item>
+        <item>Coffee Cake</item>
+        <item>Pizza</item>
+
+
+
+    </string-array>
+
+    <string-array name="pastries_description">
+        <item>Bakery cakes are suits and sugared</item>
+        <item>Danish pastry is a premium self-serve cake</item>
+        <item>Coffee cake is sugared and suit</item>
+        <item>Pizza is a bonus pastry</item>
+        <item>Bakery cakes are suits and sugared</item>
+        <item>Danish pastry is a premium self-serve cake</item>
+        <item>Coffee cake is sugared and suit</item>
+        <item>Pizza is a bonus pastry</item>
+
+
+    </string-array>
+    <!--End pastries-->
+
+    <!--Stores-->
+    <array name="store_images">
+        <item>@drawable/france</item>
+        <item>@drawable/london</item>
+        <item>@drawable/newyork</item>
+        <item>@drawable/geneva</item>
+        <item>@drawable/france</item>
+        <item>@drawable/london</item>
+        <item>@drawable/newyork</item>
+        <item>@drawable/geneva</item>
+
+    </array>
+    <string-array name="stores_title">
+        <item>French Cafeteria</item>
+        <item>London Desserts Store</item>
+        <item>Newyork Bakery Store</item>
+        <item>Geneva Cafeteria</item>
+        <item>French Cafeteria</item>
+        <item>London Desserts Store</item>
+        <item>Newyork Bakery Store</item>
+        <item>Geneva Cafeteria</item>
+
+
+    </string-array>
+
+    <string-array name="stores_description">
+        <item>French Cafeteria makes suit pastries</item>
+        <item>London Desserts Store is the best desserts store</item>
+        <item>Newyork Bakery Store provides chocolate pastries</item>
+        <item>Geneva Cafeteria is the best pastries store</item>
+        <item>French Cafeteria makes suit pastries</item>
+        <item>London Desserts Store is the best desserts store</item>
+        <item>Newyork Bakery Store provides chocolate pastries</item>
+        <item>Geneva Cafeteria is the best pastries store</item>
+
+
+
+    </string-array>
+    <string-array name="stores_open_time">
+        <item>Open time: 10:00</item>
+        <item>Open time: 9:15</item>
+        <item>Open time: 8:30</item>
+        <item>Open time: 21:00</item>
+        <item>Open time: 10:00</item>
+        <item>Open time: 9:15</item>
+        <item>Open time: 8:30</item>
+        <item>Open time: 21:00</item>
+
+
+    </string-array>
+    <!--End Stores-->
+
+</resources>

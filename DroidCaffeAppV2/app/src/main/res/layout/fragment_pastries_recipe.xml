@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    tools:context=".PastriesRecipeFragment">
+
+<!-- TODO: Update blank fragment layout -->
+
+<TextView
+    android:id="@+id/text_pastries_intro"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/pastries_recipes"
+    android:layout_marginTop="16dp"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/navy_blue"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    />
+<TextView
+    android:id="@+id/pastries_browse_recipes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/view_pastries"
+    android:layout_marginTop="4dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@id/text_pastries_intro"
+    android:textColor="@color/css_gray"
+    android:textStyle="italic"
+    android:textSize="16sp"
+    />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/recycler_pastries"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/pastries_browse_recipes">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>
+
